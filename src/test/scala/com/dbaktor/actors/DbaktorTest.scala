@@ -1,11 +1,9 @@
-package com.dbaktor
+package com.dbaktor.actors
 
-import akka.util.Timeout
-import org.scalatest.{BeforeAndAfterEach, FunSpecLike, Matchers}
 import akka.actor.ActorSystem
-import com.dbaktor.messages.SetRequest
 import akka.testkit.TestActorRef
-import scala.concurrent.duration
+import com.dbaktor.messages.SetRequest
+import org.scalatest.{BeforeAndAfterEach, FunSpecLike, Matchers}
 
 /**
   * Created by Keech on 09/10/2016.

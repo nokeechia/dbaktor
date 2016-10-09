@@ -2,7 +2,6 @@ package com.dbaktor.actors
 
 import akka.actor.ActorSystem
 import akka.testkit.TestActorRef
-import com.dbaktor.Dbaktor
 import org.scalatest.{BeforeAndAfterEach, FunSpecLike, Matchers}
 
 /**
